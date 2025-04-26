@@ -88,30 +88,33 @@ Project folder link : https://drive.google.com/drive/folders/1GmNZ-Oj144IOdY8Abj
 - pip install matplotlib
 - pip install yfinance
 - pip install flask
-## Start to run:
+### Start to run:
+1. Open the project folder in VS code.
+2. Select the option "Run python file in dedicated terminal"
+   
+   ![image](https://github.com/user-attachments/assets/c7a33c85-29e9-4b61-82bf-c96db759c455)
+   
+  Note : After opening the folder make sure that no errors in the libraries.
+  If shows download it using "pip install requirements.txt" command.
+  
+3. It shows like this:
+ 
+ ![image](https://github.com/user-attachments/assets/25f16891-b9bb-48de-aed9-7cac9b5060b3)
+ 
+4. Then use the command "python -m streamlit run app.py"
+  It will redirect you to the app website.
+
+![image](https://github.com/user-attachments/assets/45b03625-ac4c-4d90-aa83-77acdc27d033)
+
+5. Now you can enter the ticker symbols for the specific stock company (example: AAPL, TSLA, MSFT...etc.,).
+6. You can see the Original vs Predicted stock prices in the Graph.
+
+   ![image](https://github.com/user-attachments/assets/66c15c20-10ba-4418-82d8-bdf7f13c22ee)
 
 ---
 
-## 🧬 Future Scope
+## 🧬 Future Scope:
 
-List improvements, extensions, or follow-up features:
-
-- 📈 More integrations  
-- 🛡️ Security enhancements  
-- 🌐 Localization / broader accessibility  
-
----
-
-## 📎 Resources / Credits
-
-- APIs or datasets used  
-- Open source libraries or tools referenced  
-- Acknowledgements  
-
----
-
-## 🏁 Final Words
-
-Share your hackathon journey — challenges, learnings, fun moments, or shout-outs!
+This project can be enhanced by integrating more advanced deep learning models like GRU or Transformer architectures to improve prediction accuracy. Real-time data streaming and sentiment analysis from news or social media can also be incorporated for smarter forecasting. Additionally, deploying the application on cloud platforms and developing interactive dashboards would make it more accessible and user-friendly. Expanding the system into portfolio management and mobile app integration are also promising future enhancements.
 
 ---
